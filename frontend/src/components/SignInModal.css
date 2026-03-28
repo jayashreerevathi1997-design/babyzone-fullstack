@@ -1,0 +1,123 @@
+.signin-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.signin-modal {
+  background: #fff;
+  border-radius: 16px;
+  padding: 36px 40px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.signin-modal h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.signin-field {
+  margin-bottom: 16px;
+}
+
+.signin-field label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.signin-field input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #f8bbd0;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  background: #fff;
+}
+
+.signin-field input:focus {
+  border-color: #e91e63;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  padding-right: 40px;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 16px;
+}
+
+.forgot-password {
+  text-align: right;
+  font-size: 13px;
+  color: #e91e63;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+.signin-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.signin-actions .back-btn {
+  padding: 10px 32px;
+  background: #00bcd4;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signin-actions .back-btn:hover {
+  background: #0097a7;
+}
+
+.signin-actions .register-btn {
+  padding: 10px 32px;
+  background: #e91e63;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signin-actions .register-btn:hover {
+  background: #c2185b;
+}

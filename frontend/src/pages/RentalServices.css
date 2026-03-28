@@ -1,0 +1,62 @@
+.rental-page {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px 40px;
+}
+
+.rental-page .breadcrumb {
+  padding: 12px 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.rental-page .breadcrumb a {
+  color: #888;
+  text-decoration: none;
+}
+
+.rental-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.rental-header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+.rental-controls {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.period-wrapper,
+.rental-header .sort-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.period-wrapper select,
+.rental-header .sort-wrapper select {
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 13px;
+  outline: none;
+  cursor: pointer;
+}
+
+.rental-period {
+  font-size: 11px;
+  color: #888;
+  font-weight: 400;
+}

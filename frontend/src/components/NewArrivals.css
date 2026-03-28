@@ -1,0 +1,17 @@
+.new-arrivals {
+  padding: 30px 40px;
+}
+
+.new-arrivals .section-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

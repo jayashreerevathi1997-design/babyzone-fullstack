@@ -1,0 +1,202 @@
+.contact-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px 40px;
+}
+
+.contact-page .breadcrumb {
+  padding: 12px 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.contact-page .breadcrumb a {
+  color: #888;
+  text-decoration: none;
+}
+
+/* Layout */
+.contact-layout {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+/* Reach Us */
+.reach-us {
+  flex: 0 0 300px;
+}
+
+.reach-us h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.reach-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.reach-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.reach-link:hover {
+  border-color: #e91e63;
+}
+
+.reach-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.reach-item:last-child {
+  margin-bottom: 0;
+}
+
+.reach-icon {
+  font-size: 18px;
+  color: #e91e63;
+  min-width: 20px;
+}
+
+.live-chat-btn {
+  padding: 12px 28px;
+  background: #fdd835;
+  color: #333;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.live-chat-btn:hover {
+  background: #fbc02d;
+}
+
+/* Contact Form */
+.contact-form-wrapper {
+  flex: 1;
+  background: #fce4ec;
+  border-radius: 12px;
+  padding: 24px 28px;
+}
+
+.contact-form-wrapper h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.form-field {
+  margin-bottom: 14px;
+}
+
+.form-field label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  background: #fff;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  border-color: #e91e63;
+}
+
+.form-field textarea {
+  resize: none;
+}
+
+.send-btn {
+  padding: 10px 32px;
+  background: #e91e63;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.send-btn:hover {
+  background: #c2185b;
+}
+
+/* FAQs */
+.faqs-section {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.faqs-section h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.faq-item {
+  margin-bottom: 18px;
+}
+
+.faq-item h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.faq-answer {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.faq-answer p {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-layout {
+    flex-direction: column;
+  }
+
+  .reach-us {
+    flex: none;
+    width: 100%;
+  }
+}

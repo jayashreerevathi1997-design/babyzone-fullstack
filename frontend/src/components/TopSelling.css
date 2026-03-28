@@ -1,0 +1,66 @@
+.top-selling {
+  padding: 30px 40px;
+  background-color: #fce4ec;
+  margin-top: 20px;
+}
+
+.top-selling .section-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.top-selling-slider {
+  padding: 0 10px;
+}
+
+.top-selling-card {
+  text-align: center;
+  padding: 10px;
+}
+
+.top-selling-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.top-selling-img {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.top-selling-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.top-selling-name {
+  font-size: 13px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #333;
+  min-height: 36px;
+}
+
+.top-selling .shop-now-btn {
+  display: inline-block;
+  padding: 8px 24px;
+  background-color: #00bcd4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.top-selling .shop-now-btn:hover {
+  background-color: #0097a7;
+}
